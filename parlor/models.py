@@ -12,3 +12,16 @@ class Contact(models.Model):
     def __str__(self):
         return self.name
     
+class Icecreame(models.Model):
+    name = models.CharField(max_length=122)
+    desc = models.TextField()
+    Img = models.ImageField(upload_to='images/')
+    price = models.FloatField()
+    
+    
+    
+
+    def __str__(self):
+        return self.name
+    
+
