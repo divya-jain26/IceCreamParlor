@@ -17,6 +17,7 @@ class Icecreame(models.Model):
     desc = models.TextField()
     Img = models.ImageField(upload_to='images/')
     price = models.FloatField()
+    id = models.IntegerField(primary_key=True)
     
     
     

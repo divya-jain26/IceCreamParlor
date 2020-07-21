@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block body %}
+<div class="container-fluid my-4 px-0">
+ <div class="row">
+  <div class="col-md-6">
+  <h3>Chocolate Crumb Cheesecake</h3>
+  <img src="{% static '1.jpg' %}" class="d-block w-100" alt="..."width="400" height="200">
+  <p class="card-text">Chocolate Crumb Cheesecake – cheesecake ice cream with chocolate cookie swirl</p>
+  </div>
+  <div class="col-md-6">
+  <h3>Oreo® Cookie</h3>
+  <img src="{% static '2.jpg' %}" class="d-block w-100" alt="..."width="400" height="200">
+  <p class="card-text">Oreo® Cookie – Vanilla ice cream with crushed Oreo® cookies.l</p>
+  </div>
+  <div class="col-md-6 my-3">
+  <h3>Coffee cake</h3>
+  <img src="{% static '5.jfif.jpg' %}" class="d-block w-100" alt="..."width="400" height="200">
+  <p class="card-text">Coffee – Simply stated; creamy smooth classic coffee.</p>
+  </div>
+  <div class="col-md-6 my-3">
+  <h3>Chocolate ice</h3>
+  <img src="{% static '9.jfif.jpg' %}" class="d-block w-100" alt="..."width="400" height="200">
+  <p class="card-text">Chocolate – Traditional rich New England chocolate.</p>
+  </div>
+  
+ </div>
+</div>
+
+
+{% endblock body %}

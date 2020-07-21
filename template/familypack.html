@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block body %}
+<div class="container-fluid my-4 px-0">
+ <div class="row">
+  <div class="col-md-4">
+  <h3>Crunchy with Caremel</h3>
+  <img src="{% static '10.jfif.jpg' %}" class="d-block w-100" alt="..."width="400" height="400">
+  <p class="card-text">Enjoy family pack with extra caremel and cruncy chips</p>
+  </div>
+  <div class="col-md-4">
+  <h3>Nut Cracker icecream</h3>
+  <img src="{% static '11.jfif.jpg' %}" class="d-block w-100" alt="..."width="400" height="400">
+  <p class="card-text">Enjoy family pack with special Nuts from Jammu</p>
+  </div>
+  <div class="col-md-4">
+  <h3>Strawberry Twister</h3>
+  <img src="{% static '12.jfif.jpg' %}" class="d-block w-100" alt="..."width="400" height="400">
+  <p class="card-text">Enjoy the pack with real strawberry and chocolate</p>
+  </div>
+  
+ </div>
+</div>
+
+
+{% endblock body %}
